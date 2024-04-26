@@ -324,30 +324,30 @@ Yrityksen saattohoidon perimmäinen tarkoitus on mahdollistaa, että yrittäjä 
 						<div class="col-md-offset-1 col-md-5 col-sm-6">
 							<div class="single-contact-box">
 								<div class="contact-form">
-									<form>
+									<form action="php/mail.php" method="post">
 										<div class="row">
 											<div class="col-sm-6 col-xs-12">
 												<div class="form-group">
-												  <input type="text" class="form-control" id="name" placeholder="Name*" name="name">
+												  <input type="text" class="form-control" id="name" required placeholder="Name*" name="name">
 												</div><!--/.form-group-->
 											</div><!--/.col-->
 											<div class="col-sm-6 col-xs-12">
 												<div class="form-group">
-													<input type="email" class="form-control" id="email" placeholder="Email*" name="email">
+													<input type="email" class="form-control" id="email" required placeholder="Email*" name="email">
 												</div><!--/.form-group-->
 											</div><!--/.col-->
 										</div><!--/.row-->
 										<div class="row">
 											<div class="col-sm-12">
 												<div class="form-group">
-													<input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
+													<input type="text" class="form-control" id="subject" required placeholder="Subject" name="subject">
 												</div><!--/.form-group-->
 											</div><!--/.col-->
 										</div><!--/.row-->
 										<div class="row">
 											<div class="col-sm-12">
 												<div class="form-group">
-													<textarea class="form-control" rows="8" id="comment" placeholder="Message" ></textarea>
+													<textarea class="form-control" rows="8" id="comment"required placeholder="Message" ></textarea>
 												</div><!--/.form-group-->
 											</div><!--/.col-->
 										</div><!--/.row-->
