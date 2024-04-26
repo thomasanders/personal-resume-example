@@ -2,7 +2,7 @@
 
 $name = $_POST["name"];
 $from = $_POST["email"];
-$subject = "Message from EXMPL";
+$subject = "Message from konkurssi";
 $to = "info@konkurssiapua.fi";
 $phone = $_POST["phone"];
 $message =  $_POST["msg"];
