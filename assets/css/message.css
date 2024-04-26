@@ -1,23 +1,16 @@
-.msg-status {
-   
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 50px;
-    padding: 30px;
-    width: 700px;
-    border-radius: 12px;
-    font-size: 24px;
-    color: black;
+body, html {
+    height: 100%;
   }
   
-  .success {
-    display: flex;
+  .bg {
+    /* The image used */
+    background-image: url("/assets/images/message_sent.jpg");
   
-    background-color: hsl(143, 83%, 55%);
-  }
-  .error {
-    display: flex;
+    /* Full height */
+    height: 100%;
   
-    background-color: hsl(9, 100%, 64%);
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
