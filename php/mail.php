@@ -17,7 +17,7 @@ $headers = "Reply-To: " . $from . "\r\n";
 $mail_status = mail($to, $subject, $txt, $headers);
 
 if ($mail_status) {
-    header("Location: /contact.html?mail_status=sent");
+    header("Location: /index.html?mail_status=sent");
 } else {
-    header("Location: /contact.html?mail_status=error");
+    header("Location: /index.html?mail_status=error");
 }
