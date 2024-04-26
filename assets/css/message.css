@@ -1,0 +1,23 @@
+.msg-status {
+   
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    padding: 30px;
+    width: 700px;
+    border-radius: 12px;
+    font-size: 24px;
+    color: black;
+  }
+  
+  .success {
+    display: flex;
+  
+    background-color: hsl(143, 83%, 55%);
+  }
+  .error {
+    display: flex;
+  
+    background-color: hsl(9, 100%, 64%);
+  }
