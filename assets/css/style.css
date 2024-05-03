@@ -208,7 +208,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*.header-text-area*/
 .header-text h2 {
     color: #fff;
-    font-size: 54px;
+    font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.5;
@@ -283,7 +283,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 .single-about-img img {
     max-width: 700px;
-    height: 468px;
+    /* height: 468px; */
 }
 /* .about-list-icon{
     display: flex;
