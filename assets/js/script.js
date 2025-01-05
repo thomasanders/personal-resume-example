@@ -12,6 +12,6 @@ if (document.location.search === "?message.html") {
   
     setTimeout(() => {
       msgStatus.classList.remove("error");
-    }, 3000);
+    }, 100);
   }
   
